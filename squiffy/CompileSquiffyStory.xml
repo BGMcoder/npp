@@ -1,0 +1,15 @@
+
+<!--//
+Add this "command" to your 
+C:\Users\&username%\AppData\Roaming\Notepad++\shortcuts.xml
+(Obviously, don't add the outer tags; that's just to show you where the command goes)
+The first command will add "Compile Squiffy Story" to your RUN menu.
+It will build just the story.js file in the .sq files' directory without the index.html, style.css files.
+If your squiffy file is named "Bob.sq", then the new js file will be called "Bobstory.js".  If you don't want the "story" part in the name, just edit the commandline below.
+The second command will add "Build Squiffy Story" and create the squiffy story normally with it's index.html and story.js and style.css just like the Squiffy Editor.
+//-->
+<UserDefinedCommands>
+<Command name="Compile Squiffy Story" Ctrl="no" Alt="no" Shift="no" Key="">cmd /c cd /d &quot;$(CURRENT_DIRECTORY)&quot; &amp; squiffy &quot;$(FILE_NAME)&quot; --scriptonly &quot;$(NAME_PART)story.js&quot;</Command>
+<Command name="Build Squiffy Story" Ctrl="no" Alt="no" Shift="no" Key="">cmd /c cd /d &quot;$(CURRENT_DIRECTORY)&quot; &amp; squiffy &quot;$(FILE_NAME)&quot; </Command>
+
+</UserDefinedCommands>
