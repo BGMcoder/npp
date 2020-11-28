@@ -1,14 +1,14 @@
 # npp
 Customization files for Notepad++
 
-# Installation
+## Installation
 
-## To install a User Defined Language (syntax highlighter) in Notepad++ 7+
+### To install a User Defined Language (syntax highlighter) in Notepad++ 7+
 
 Place the xml file in your Notepad++'s settings directory, which is usually this:
 C:\Users\brgabriel.RCH\AppData\Roaming\Notepad++\userDefineLangs
 
-## To install the syntax highlighter in Notepad++ older versions
+### To install the syntax highlighter in Notepad++ older versions
 
 In the main menu, go to View > User defined language...
 Push the "Import..." button.
@@ -17,18 +17,18 @@ It will report "Import Successful"
 Now, go and open one of the configuration files in Notepad++.
 Voila!  Colour!
 
-# RUN Commands
+### RUN Commands
 
 https://npp-user-manual.org/docs/config-files/#macros
 
 
-# The Goodies
+## The Goodies
 
-## Squiffy
+### Squiffy
 
 There is a User-Defined Language, and a couple RUN commands (to build it from the RUN menu).
 
-## Aserisk
+### Aserisk
 
 There are two kinds of UDLs for Asterisk.
 - Asterisk.xml  - for .conf files
