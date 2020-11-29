@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- https://github.com/BGMcoder/npp    by bgmCoder -->
+<NotepadPlus>
+	<functionList>
+		<!-- File format used for: .sq         -->
+			<parser
+				id="Squiffy" displayName="Squiffy" commentExpr=""
+			>
+				<function
+					mainExpr="^\[(?:\[([^\[\]\r\n]+)\]|(?1))\]:"
+				>
+					<functionName>
+						<!-- <nameExpr expr="^\[(?:\[([^\[\]\r\n]+)\]\](?=:)|\K(?1)(?=\]:))" /> -->
+						<nameExpr expr="^\[(?:\[([^\[\]\r\n]+)(?=\]\]:)|\K(?1)(?=\]:))" />
+
+					</functionName>
+				</function>
+			</parser>
+	</functionList>
+</NotepadPlus>
