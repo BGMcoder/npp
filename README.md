@@ -31,7 +31,12 @@ There is a User-Defined Language, and a couple RUN commands (to build it from th
 ### Aserisk
 
 There are two kinds of UDLs for Asterisk.
+
 - Asterisk.xml  - for .conf files
 - AsteriskSys.xml - for .sys files
 - and there is one for Polycom Config files - for .cfg files
+
 Since other kinds of files are .conf, .sys and .cfg, you might skip the setting the file association for the UDLs if you use those other highlighters.  
+
+### CSS
+My css functionlist will properly display all elements even if they have linebreaks in between, or even if elements are declared on the same line.  You can read about it in the npp forum thread. https://community.notepad-plus-plus.org/topic/20397/is-there-a-good-css-class-parser
