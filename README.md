@@ -25,9 +25,10 @@ https://npp-user-manual.org/docs/config-files/#macros
 ## The Goodies
 
 ### Squiffy
+Turn Notepad++ into your [Squiffy](http://textadventures.co.uk/squiffy) Editor!
 
 There is a User-Defined Language, and a couple RUN commands (to build it from the RUN menu).
-You see, for Squiffy, the actual squiffy editor doesn't have the greatest syntax highlighting and it's difficult to manage a large story, too.  So I use Notepad++ with my own squiffy UDL and functionlist.  I can easily navigate to any squiffy section - AND I can see a list of all the sections and passages right there in the list with their actual positions in the document.  Now, I also use my own html page based on the original one that Squiffy creates - since it never changes, you can alter it to your own fancy.  So I created a RUN command in Notepad++ to compile the story and just output the story.js (using squiffy compiler via commandline).  Then all I have to do is push refresh in the browser to view the story with my custom css and whatever I want.  Overall, this makes composing stories much easier.
+You see, for Squiffy, the actual squiffy editor doesn't have the greatest syntax highlighting and it's difficult to manage a large story, too.  So I use Notepad++ with my own squiffy UDL and functionlist.  I can easily navigate to any squiffy section - AND I can see a list of all the sections and passages right there in the list with their actual positions in the document.  Now, I also use my own html page based on the original one that Squiffy creates - since it never changes, you can alter it to your own fancy.  So I created a RUN command in Notepad++ to compile the story and just output the story.js (using [squiffy compiler](http://docs.textadventures.co.uk/squiffy/cli.html) via commandline).  Then all I have to do is push refresh in the browser to view the story with my custom css and whatever I want.  Overall, this makes composing stories much easier.
 
 Another tip is to enable auto-completion in Notepad++.  This will allow you to autocomplete squiffy section and passage names!
 
