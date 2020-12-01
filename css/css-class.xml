@@ -2,6 +2,8 @@
 <!--
 Originally from the np++ forum, but tweaked by bgmCoder on Sunday, November 29, 2020
 https://community.notepad-plus-plus.org/topic/20397/is-there-a-good-css-class-parser
+Unless you have a fast computer, this functionlist can be rather slow.
+I recommend the other css-comment.xml for speed.  It's easier to read, too.
 -->
 
 
