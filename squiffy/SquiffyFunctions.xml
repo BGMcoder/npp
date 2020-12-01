@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 <!-- https://github.com/BGMcoder/npp    Squiffy FunctionList by bgmCoder -->
-
+<!-- Much help from here! I can't really claim the credit for this! https://community.notepad-plus-plus.org/topic/20390/how-to-understand-the-functionlist-parameters -->
 <NotepadPlus>
 	<functionList>
 		<!-- File format used for: .sq         -->
@@ -11,7 +11,11 @@
 					mainExpr="^\[(?:\[([^\[\]\r\n]+)\]|(?1))\]:"
 				>
 					<functionName>
+						<!--passages will appear without any brackets  -->
+						<!-- Use this first one to make the sections appear like:  [[section]]             -->
 						<!-- <nameExpr expr="^\[(?:\[([^\[\]\r\n]+)\]\](?=:)|\K(?1)(?=\]:))" /> -->
+						
+						<!-- Use this one to make sections appear like (a bit easier to see):  [[section   -->
 						<nameExpr expr="^\[(?:\[([^\[\]\r\n]+)(?=\]\]:)|\K(?1)(?=\]:))" />
 
 					</functionName>
