@@ -1,11 +1,13 @@
 <?xml version="1.0" encoding="UTF-8" ?>
 
 <!-- css.xml by bgmCoder https://github.com/BGMcoder/npp/tree/main/css -->
-<!-- to use, rename this file to css.xml before you put it in your functionlist folder -->
 <!-- 
 Use this to organize your css by sections.  
 It will place into your functionlist any comment that is at the beginning of a line.
 If you don't want the comments to show in the functionlist, indent them with a tab or space.
+
+I didn't come up with the original idea; I just tweaked the one by Lionel Wong in this thread
+https://community.notepad-plus-plus.org/topic/10711/regex-help-css-comments-as-function-names-in-functionlist
 -->
 <NotepadPlus>
 	<functionList>
